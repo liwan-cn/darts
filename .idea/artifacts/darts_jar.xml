@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="darts:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/darts_jar</output-path>
+    <root id="root">
+      <element id="archive" name="darts.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="darts" />
+      </element>
+    </root>
+  </artifact>
+</component>
